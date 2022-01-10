@@ -1,0 +1,69 @@
+row(
+    column(
+        input(
+            "Привет, какое у тебя \"Имя\"?",
+            "first_name"
+         ),
+        input(
+            "how are you?",
+            "feelings"
+        ),
+        pre(
+            "Я Алексей",
+            "<br>Мне 21 год"
+        ),
+        div(
+            div(
+                "Это вложенный див",
+                div("А внутри него еще один \"Див\""),
+                input("\"input label\"", "input_name")
+            ),
+            pre("Провека"),
+            input("sdf", "wer")
+        )
+    ),
+    column(
+        input(
+            "Еще один инпут",
+            "input"
+        )
+    ),
+    column(
+        input(
+            "Русский инпут",
+            "input"
+        )
+    )
+),
+row(
+    column(
+        input(
+            "Hi, what\'s your \"name\"?",
+             "name"
+         ),
+        input(
+            "how are you?",
+            "feelings"
+        ),
+        pre(
+            "hello, my name is Alex",
+             "I am 21 y.o."
+        ),
+        div(
+            pre("dsadf"),
+            input("sdf", "wer")
+        )
+    ),
+    column(
+        input(
+            "one more input here",
+            "input"
+        )
+    ),
+    column(
+        input(
+            "one more input here",
+            "input"
+        )
+    )
+)
